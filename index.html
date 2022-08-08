@@ -12,18 +12,15 @@
 
 <body class="h-full grid place-items-center">
     <div id="app">
-        <app-button>Wha?</app-button>
-        <app-button>Huh?</app-button>
+        <app-button variant="default">Default</app-button>
+        <app-button variant="primary">Primary</app-button>
+        <app-button variant="success">Success</app-button>
+        <app-button variant="danger">Danger</app-button>
     </div>
     <script type="module">
-        import AppButton from './js/components/AppButton.js';
-        let app = {
-            components: {
-                "app-button": AppButton
-            }
-        };
+        import App from './js/components/App.js';
 
-        Vue.createApp(app).mount('#app')</script>
+        Vue.createApp(App).mount('#app')</script>
 </body>
 
 </html>
