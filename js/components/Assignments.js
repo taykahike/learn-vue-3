@@ -14,11 +14,11 @@ export default {
   data() {
     return {
       assignments: [
-        { name: "Finish project", complete: false, id: 1 },
-        { name: "Read chapter four", complete: false, id: 2 },
-        { name: "Turn in homework", complete: false, id: 3 },
-        { name: "Get groceries", complete: false, id: 4 },
-        { name: "Go to bank", complete: false, id: 5 },
+        { name: "Finish project", complete: false, id: 1, tag: "math" },
+        { name: "Read chapter four", complete: false, id: 2, tag: "science" },
+        { name: "Turn in homework", complete: false, id: 3, tag: "reading" },
+        { name: "Get groceries", complete: false, id: 4, tag: "science" },
+        { name: "Go to bank", complete: false, id: 5, tag: "math" },
       ],
     };
   },
